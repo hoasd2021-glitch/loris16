@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     // 2. وضع خاصية base هنا (أعلى الكائن):
-    base: './', 
+    base: '/', //
     server: {
       port: 3000,
       host: '0.0.0.0',
